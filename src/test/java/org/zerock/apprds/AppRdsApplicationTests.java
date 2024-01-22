@@ -3,15 +3,11 @@ package org.zerock.apprds;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-
 @SpringBootTest
-class AppRdsApplicationTests {
-
+class AppEc2ApplicationTests {
 
     @Test
     void contextLoads() {
-
-
     }
 
 }
