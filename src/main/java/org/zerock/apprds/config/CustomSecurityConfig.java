@@ -21,7 +21,7 @@ public class CustomSecurityConfig {
     public SecurityFilterChain filterChain(final HttpSecurity http) throws Exception{
 
         http.csrf().disable();
-        http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+        //http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 
         return http.build();
     }
